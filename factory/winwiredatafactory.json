@@ -1,0 +1,15 @@
+{
+	"name": "winwiredatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d79bdf3f-ea38-46e3-bf27-263a07a8fd99",
+		"tenantId": "fa5e5599-d430-4293-bbe1-97f45d35596e"
+	}
+}

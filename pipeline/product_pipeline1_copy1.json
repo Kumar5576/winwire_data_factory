@@ -1,0 +1,32 @@
+{
+	"name": "product_pipeline1_copy1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "msg",
+					"value": "this is the product pipeline"
+				}
+			}
+		],
+		"variables": {
+			"msg": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "BV"
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-08-18T11:15:41Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "DS_SQL_TO_ADLS_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azurestorge",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sqldataload"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

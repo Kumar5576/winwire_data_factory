@@ -1,0 +1,32 @@
+{
+	"name": "Review_pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "msg",
+					"value": "this is the review pipeline"
+				}
+			}
+		],
+		"variables": {
+			"msg": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "BV"
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-08-18T11:06:25Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
